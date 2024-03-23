@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e5faeac-25a2-4b6b-843d-3c2532f193c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/CryptoCurrencyBot.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/CryptoCurrencyBotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/bot/CryptoCurrencyBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/config/BotConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/config/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/config/MapperConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/currency/CurrencyUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/currency/RatioCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/currency/UpdatedCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/handler/AnswerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/handler/AnswerHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/model/CurrencyRateEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/model/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/notification/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/notification/impl/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/repository/CurrencyRateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/repository/impl/CurrencyRateRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/service/CurrencyRateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/service/impl/CurrencyRateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/ui/buttons/GeneralActionButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/enums/ActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/enums/BotState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/mapper/CurrencyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/parsers/HtmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/utils/parsers/MessageParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/resources/db/migration/V1__Tables_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/main/resources/static/messages/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoCurrencyBot/src/test/java/by/innowise/cryptocurrencybot/CryptoCurrencyBotApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/CryptoCurrencyBot">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CryptoCurrencyBot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CryptoCurrencyBot" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2e4vbi7RXjVuzt8xG5XzPMqIpdV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build CryptoCurrencyBot.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CryptoCurrencyBotApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/programming/java proj/ITA-Labs-2024-T1-back",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\java proj\innowise_java_hackathon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\java proj\innowise_java_hackathon" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CryptoCurrencyBotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CryptoCurrencyBot.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.innowise.cryptocurrencybot.CryptoCurrencyBotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e5faeac-25a2-4b6b-843d-3c2532f193c8" name="Changes" comment="" />
+      <created>1711176737399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711176737399</updated>
+      <workItem from="1711176738506" duration="19992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CryptoCurrencyBot/src/main/java/by/innowise/cryptocurrencybot/handler/AnswerHandlerImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="currencyRateEntities" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
