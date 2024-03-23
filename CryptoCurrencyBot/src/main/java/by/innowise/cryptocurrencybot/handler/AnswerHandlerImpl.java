@@ -26,9 +26,14 @@ public class AnswerHandlerImpl implements AnswerHandler {
         SendMessage response = new SendMessage();
         switch (message.getText()) {
             case "/start" -> {
-                response.setText(messageParser.readMessage("D:\\programming\\java proj\\innowise_java_hackathon\\CryptoCurrencyBot\\src\\main\\resources\\static\\messages\\welcome.html"));
-                response.setReplyMarkup(GeneralActionButtons.actionChooseButtons());
-                userService.save(userMapper.toEntity(message.getFrom(), message.getChatId()));
+                if (!(userService.getAll().size() > 20)) {
+                    response.setText(messageParser.readMessage("D:\\programming\\java proj\\innowise_java_hackathon\\CryptoCurrencyBot\\src\\main\\resources\\static\\messages\\welcome.html"));
+                    response.setReplyMarkup(GeneralActionButtons.actionChooseButtons());
+                    userService.save(userMapper.toEntity(message.getFrom(), message.getChatId()));
+                }
+                else{
+                    response.setText("Bot is unavailable!");
+                }
             }
             default -> {
                 var user = userService.getByChatId(message.getChatId());
