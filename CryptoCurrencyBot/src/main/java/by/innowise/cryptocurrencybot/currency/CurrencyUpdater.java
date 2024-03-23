@@ -1,17 +1,14 @@
 package by.innowise.cryptocurrencybot.currency;
 
-import by.innowise.cryptocurrencybot.bot.CryptoCurrencyBot;
 import by.innowise.cryptocurrencybot.model.CurrencyRateEntity;
 import by.innowise.cryptocurrencybot.notification.NotificationService;
 import by.innowise.cryptocurrencybot.service.CurrencyRateService;
-import by.innowise.cryptocurrencybot.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.util.Arrays;
 

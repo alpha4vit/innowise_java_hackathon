@@ -2,7 +2,6 @@ package by.innowise.cryptocurrencybot.service;
 
 import by.innowise.cryptocurrencybot.currency.UpdatedCurrency;
 import by.innowise.cryptocurrencybot.model.CurrencyRateEntity;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 import java.math.BigDecimal;
 import java.util.List;

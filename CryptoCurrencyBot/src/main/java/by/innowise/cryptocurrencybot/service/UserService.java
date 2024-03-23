@@ -4,7 +4,6 @@ import by.innowise.cryptocurrencybot.model.UserEntity;
 import by.innowise.cryptocurrencybot.utils.enums.BotState;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface UserService {
 

@@ -1,7 +1,6 @@
 package by.innowise.cryptocurrencybot.currency;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 
 public class RatioCalculator {
 

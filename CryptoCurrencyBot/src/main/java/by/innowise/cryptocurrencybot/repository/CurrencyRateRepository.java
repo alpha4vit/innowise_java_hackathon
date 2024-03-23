@@ -2,7 +2,6 @@ package by.innowise.cryptocurrencybot.repository;
 
 import by.innowise.cryptocurrencybot.model.CurrencyRateEntity;
 
-import java.util.Currency;
 import java.util.List;
 import java.util.Optional;
 
