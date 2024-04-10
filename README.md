@@ -23,5 +23,5 @@ Application must:
 ## Additional functionality
 - **User should be able to follow cryptocurrecny pair changes and get notifications only about followed notifications**
 
-##Constraints
+## Constraints
 1. **This assignment is designed to take 4-5 hours to complete**
